@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Studio Ghibli Spirits Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">GhibliSpirits</a>
+      <div class="navbar-nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="details.html">Details</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="new-character-form.html">Add a Character</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container py-5">
+    <h1 class="text-center mb-2">Studio Ghibli Characters Gallery</h1>
+    <p class="text-center text-muted mb-4">Explore mystical little creatures across Studio Ghibli world</p>
+
+    <!-- Search Bar (Preview/UI only) -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-6">
+        <input type="text" class="form-control shadow-sm" placeholder="Search spirits by name or film...">
+      </div>
+    </div>
+
+    <!-- 5 Character Cards Grid (Alphabetical Order) -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <!-- 1. Boh & Yu-Bird -->
+      <div class="col">
+        <div class="card h-100 character-card shadow-sm">
+          <img src="https://i.pinimg.com/736x/8c/bb/35/8cbb3526e592b911f31cbf81bb47fb1f.jpg" class="card-img-top" alt="Boh as Mouse and Yu-Bird">
+          <div class="card-body">
+            <h5 class="card-title">Boh & Yu-Bird</h5>
+            <p class="card-text mb-1"><strong>Universe:</strong> Spirited Away</p>
+            <p class="card-text mb-1"><strong>Role:</strong> Bathhouse Runaways / Companions</p>
+            <p class="card-text mb-2"><strong>Species:</strong> Transformed Giant Baby & Fly</p>
+            <p class="card-text small text-secondary">Yubaba's pampered child turned into a tiny mouse alongside the harpy minion transformed into a miniature fly.</p>
+            <a href="details.html" class="btn btn-sm btn-dark w-100 mt-2">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Calcifer -->
+      <div class="col">
+        <div class="card h-100 character-card shadow-sm">
+          <img src="https://pbs.twimg.com/media/F1uZkJaX0AEqLSB.jpg" class="card-img-top" alt="Calcifer">
+          <div class="card-body">
+            <h5 class="card-title">Calcifer</h5>
+            <p class="card-text mb-1"><strong>Universe:</strong> Howl's Moving Castle</p>
+            <p class="card-text mb-1"><strong>Role:</strong> Castle Engine / Hearth Keeper</p>
+            <p class="card-text mb-2"><strong>Species:</strong> Fire Demon</p>
+            <p class="card-text small text-secondary">A sarcastic fallen star bound to Howl who heats the water, moves the giant castle, and loves fried eggs and bacon.</p>
+            <a href="details.html" class="btn btn-sm btn-dark w-100 mt-2">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Chu & Chibi Totoro -->
+      <div class="col">
+        <div class="card h-100 character-card shadow-sm">
+          <img src="https://i.pinimg.com/736x/26/48/64/26486468ce7828b4b717debc4df8abd4.jpg" class="card-img-top" alt="Chu and Chibi Totoro">
+          <div class="card-body">
+            <h5 class="card-title">Chu & Chibi Totoro</h5>
+            <p class="card-text mb-1"><strong>Universe:</strong> My Neighbor Totoro</p>
+            <p class="card-text mb-1"><strong>Role:</strong> Forest Keepers / Acorn Gatherers</p>
+            <p class="card-text mb-2"><strong>Species:</strong> Forest Spirits</p>
+            <p class="card-text small text-secondary">The medium blue and small white companions of Big Totoro who scurry through underbrush dropping magic acorns.</p>
+            <a href="details.html" class="btn btn-sm btn-dark w-100 mt-2">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Otori-sama -->
+      <div class="col">
+        <div class="card h-100 character-card shadow-sm">
+          <img src="https://cdn11.bigcommerce.com/s-ad7c7/images/stencil/original/image-manager/studio-ghibli-ootori-sama-spirited-away-studio-brillantine-toronto-canada-6-copy.jpg?t=1716317598" class="card-img-top" alt="Otori-sama">
+          <div class="card-body">
+            <h5 class="card-title">Otori-sama</h5>
+            <p class="card-text mb-1"><strong>Universe:</strong> Spirited Away</p>
+            <p class="card-text mb-1"><strong>Role:</strong> Bathhouse Guests</p>
+            <p class="card-text mb-2"><strong>Species:</strong> Duck Spirits</p>
+            <p class="card-text small text-secondary">Plump, giant chick-like deities who visit Yubaba's bathhouse to soak peacefully in warm herbal waters with leaves atop their heads.</p>
+            <a href="details.html" class="btn btn-sm btn-dark w-100 mt-2">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Susuwatari (Soot Sprites) -->
+      <div class="col">
+        <div class="card h-100 character-card shadow-sm">
+          <img src="https://i.redd.it/emjhrf4b526d1.png" class="card-img-top" alt="Soot Sprites">
+          <div class="card-body">
+            <h5 class="card-title">Soot Sprites (Susuwatari)</h5>
+            <p class="card-text mb-1"><strong>Universe:</strong> My Neighbor Totoro & Spirited Away</p>
+            <p class="card-text mb-1"><strong>Role:</strong> Boiler Room Workers / House Spirits</p>
+            <p class="card-text mb-2"><strong>Species:</strong> Spirit (Soot Yokai)</p>
+            <p class="card-text small text-secondary">Small fuzzy balls of pure soot who love star candy (Kompeito) and carry coal in Kamaji's boiler room.</p>
+            <a href="details.html" class="btn btn-sm btn-dark w-100 mt-2">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Warawara -->
+      <div class="col">
+        <div class="card h-100 character-card shadow-sm">
+          <img src="https://static.wikia.nocookie.net/studio-ghibli/images/5/5b/The_Boy_and_the_Heron_07.jpg/revision/latest?cb=20230821211359" class="card-img-top" alt="Warawara">
+          <div class="card-body">
+            <h5 class="card-title">Warawara</h5>
+            <p class="card-text mb-1"><strong>Universe:</strong> The Boy and the Heron</p>
+            <p class="card-text mb-1"><strong>Role:</strong> Unborn Human Souls</p>
+            <p class="card-text mb-2"><strong>Species:</strong> Spirit Entities</p>
+            <p class="card-text small text-secondary">Floating, bubble-like spirits in the underworld that inflate and float upward toward the sky to be born into the real world.</p>
+            <a href="details.html" class="btn btn-sm btn-dark w-100 mt-2">View Details</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

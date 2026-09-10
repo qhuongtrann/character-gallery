@@ -1,0 +1,13 @@
+body {
+  background-color: #35261e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.character-card img {
+  height: 260px;
+  object-fit: cover;
+}
+footer {
+  margin-top: auto;
+}
